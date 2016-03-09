@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "parachute_colors"
+
+ParachuteColors::CLI.new.call
+
+puts "Welcome"
